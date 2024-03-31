@@ -1,0 +1,23 @@
+.button {
+  width: 190px;
+  height: 70px;
+  background-color: #118810;
+  padding: 16px 28px 16px 28px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+  &:hover {
+    background-color: #0d670d;
+    transform: translateY(3px);
+  }
+  &:active {
+    transform: translateY(5px);
+  }
+  &--text {
+    user-select: none;
+  }
+}

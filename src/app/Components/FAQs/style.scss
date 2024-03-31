@@ -1,0 +1,13 @@
+.faqs_wraper {
+  &--content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    &--title {
+      color: #222222;
+    }
+    &--description {
+      color: #444444;
+    }
+  }
+}
